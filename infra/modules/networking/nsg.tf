@@ -38,6 +38,18 @@ resource "azurerm_network_security_group" "gateway" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
+
+  security_rule {
+  name                       = "AllowAllFromBackendSubnet"
+  priority                   = 300
+  direction                  = "Inbound"
+  access                     = "Allow"
+  protocol                   = "*"
+  source_port_range          = "*"
+  destination_port_range     = "*"
+  source_address_prefix      = "10.0.2.0/24"
+  destination_address_prefix = "*"
+  }
 }
 
 resource "azurerm_network_security_group" "backend" {
