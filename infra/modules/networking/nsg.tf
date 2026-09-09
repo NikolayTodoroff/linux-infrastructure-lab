@@ -10,7 +10,7 @@ resource "azurerm_network_security_group" "gateway" {
     access                     = "Allow"
     protocol                   = "Tcp"
     source_port_range          = "*"
-    destination_port_range     = "22"
+    destination_port_range     = "2222"
     source_address_prefix      = var.admin_ip
     destination_address_prefix = "*"
   }
