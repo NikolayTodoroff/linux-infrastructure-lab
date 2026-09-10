@@ -6,7 +6,7 @@ Two Ubuntu 24.04 VMs deployed on Azure using Terraform. All VMs Linux configurat
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  Azure VNET: 10.0.0.0/16                                       │
+│  Azure VNET: 10.0.0.0/16                                        │
 │                                                                 │
 │  ┌──────────────────────────┐   ┌─────────────────────────────┐ │
 │  │  snet-gateway            │   │  snet-backend               │ │
@@ -16,7 +16,7 @@ Two Ubuntu 24.04 VMs deployed on Azure using Terraform. All VMs Linux configurat
 │  │  │  gateway           │  │   │  │  backend              │  │ │
 │  │  │  10.0.1.10         │  │   │  │  10.0.2.11            │  │ │
 │  │  │                    │  │   │  │                       │  │ │
-│  │  │  Nginx (reverse    │──┼───┼──│  MariaDB              │  │ │
+│  │  │  Nginx (reverse    │  │   │  │  MariaDB              │  │ │
 │  │  │    proxy + SSL)    │  │   │  │  NFS Server           │  │ │
 │  │  │  UFW + iptables    │  │   │  │  LVM (3x5GB disks)    │  │ │
 │  │  │  NAT/MASQUERADE    │  │   │  │  Health Check Service │  │ │
@@ -27,7 +27,7 @@ Two Ubuntu 24.04 VMs deployed on Azure using Terraform. All VMs Linux configurat
 │  │  └────────────────────┘  │   │  └───────────────────────┘  │ │
 │  └──────────────────────────┘   └─────────────────────────────┘ │
 │                                                                 │
-│  Route Table: 0.0.0.0/0 → 10.0.1.10 (on snet-backend)          │
+│  Route Table: 0.0.0.0/0 → 10.0.1.10 (on snet-backend)           │
 │  NSG: SSH from admin IP, HTTP/HTTPS public, inter-subnet open   │
 └─────────────────────────────────────────────────────────────────┘
 ```
