@@ -1,0 +1,30 @@
+Nginx:      inactive
+
+--- Network ---
+Gateway:  reachable
+Internet: reachable
+
+============================================
+Health Check — 2026-09-09 17:45:11
+============================================
+
+--- Disk Usage ---
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/vg--data-lv--projects  9.8G   24K  9.3G   1% /mnt/projects
+/dev/mapper/vg--data-lv--logs      4.0G  110M  3.9G   3% /mnt/logs
+/dev/sde1                          9.8G   24K  9.3G   1% /srv/nfs
+
+--- Memory & Swap ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       787Mi       6.1Gi       4.1Mi       1.1Gi       7.0Gi
+Swap:          511Mi          0B       511Mi
+
+--- Service Status ---
+MariaDB:    active
+NFS Server: active
+Nginx:      inactive
+
+--- Network ---
+Gateway:  reachable
+Internet: reachable
+

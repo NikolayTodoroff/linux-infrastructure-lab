@@ -1,0 +1,18 @@
+NAME                      MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda                         8:0    0   30G  0 disk 
+├─sda1                      8:1    0   29G  0 part /
+├─sda14                     8:14   0    4M  0 part 
+├─sda15                     8:15   0  106M  0 part /boot/efi
+└─sda16                   259:0    0  913M  0 part /boot
+sdb                         8:16   0    5G  0 disk 
+└─sdb1                      8:17   0    5G  0 part 
+  ├─vg--data-lv--projects 252:0    0   10G  0 lvm  /mnt/projects
+  └─vg--data-lv--logs     252:1    0    4G  0 lvm  /mnt/logs
+sdc                         8:32   0    5G  0 disk 
+└─sdc1                      8:33   0    5G  0 part 
+  └─vg--data-lv--projects 252:0    0   10G  0 lvm  /mnt/projects
+sdd                         8:48   0    5G  0 disk 
+└─sdd1                      8:49   0    5G  0 part 
+  └─vg--data-lv--projects 252:0    0   10G  0 lvm  /mnt/projects
+sde                         8:64   0   10G  0 disk 
+└─sde1                      8:65   0   10G  0 part /srv/nfs

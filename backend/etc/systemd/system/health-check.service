@@ -1,0 +1,10 @@
+[Unit]
+Description=System Health Check Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/scripts/health-check.sh
+
+[Install]
+WantedBy=multi-user.target

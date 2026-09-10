@@ -1,0 +1,3 @@
+uid=1005(dev1) gid=1006(dev1) groups=1006(dev1),1001(devteam)
+uid=1006(dev2) gid=1007(dev2) groups=1007(dev2),1001(devteam)
+uid=1007(sysadmin) gid=1008(sysadmin) groups=1008(sysadmin),27(sudo),1002(ops)

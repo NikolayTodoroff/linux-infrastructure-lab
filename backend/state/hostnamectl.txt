@@ -1,0 +1,14 @@
+ Static hostname: backend
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: a1f9938600c24b72bbe1d8ce715334ae
+         Boot ID: 5c0f2e82d577414cb9cc84918532227a
+  Virtualization: microsoft
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.17.0-1022-azure
+    Architecture: x86-64
+ Hardware Vendor: Microsoft Corporation
+  Hardware Model: Virtual Machine
+Firmware Version: Hyper-V UEFI Release v4.1
+   Firmware Date: Wed 2026-01-14
+    Firmware Age: 7month 3w 5d

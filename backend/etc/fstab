@@ -1,0 +1,8 @@
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+UUID=f7e32da7-93ed-4050-9486-92a4b806e399	/	 ext4	discard,commit=30,errors=remount-ro	0 1
+LABEL=BOOT	/boot	ext4	defaults,discard	0 2
+UUID=AE5C-A3ED	/boot/efi	vfat	umask=0077	0 1
+UUID=9264772a-640f-416d-970a-08fd5e3d232c /mnt/projects ext4 defaults 0 2
+UUID=98b5e493-ed5d-4766-8b46-cc39c0b740bb /mnt/logs xfs defaults 0 2
+UUID=1ad7e4d7-c302-44c9-a175-fc1b3410831c /srv/nfs ext4 defaults 0 2
+/swapfile none swap defaults 0 0

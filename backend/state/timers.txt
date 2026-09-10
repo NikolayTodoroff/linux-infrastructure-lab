@@ -1,0 +1,19 @@
+NEXT                                 LEFT LAST                              PASSED UNIT                           ACTIVATES
+Thu 2026-09-10 16:30:00 UTC      4min 30s Thu 2026-09-10 16:25:12 UTC      17s ago health-check.timer             health-check.service
+Thu 2026-09-10 16:30:00 UTC      4min 30s Thu 2026-09-10 16:20:12 UTC     5min ago sysstat-collect.timer          sysstat-collect.service
+Thu 2026-09-10 17:03:59 UTC         38min Thu 2026-09-10 16:24:12 UTC 1min 17s ago fwupd-refresh.timer            fwupd-refresh.service
+Thu 2026-09-10 20:28:33 UTC       4h 3min Thu 2026-09-10 10:34:12 UTC 5h 51min ago apt-daily.timer                apt-daily.service
+Thu 2026-09-10 20:29:13 UTC       4h 3min Wed 2026-09-09 20:29:13 UTC      19h ago update-notifier-download.timer update-notifier-download.service
+Thu 2026-09-10 20:39:13 UTC      4h 13min Wed 2026-09-09 20:39:13 UTC      19h ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Fri 2026-09-11 00:00:00 UTC            7h Thu 2026-09-10 00:00:11 UTC      16h ago dpkg-db-backup.timer           dpkg-db-backup.service
+Fri 2026-09-11 00:00:00 UTC            7h Thu 2026-09-10 00:00:11 UTC      16h ago logrotate.timer                logrotate.service
+Fri 2026-09-11 00:07:00 UTC            7h Thu 2026-09-10 00:07:12 UTC      16h ago sysstat-summary.timer          sysstat-summary.service
+Fri 2026-09-11 02:17:53 UTC            9h Thu 2026-09-10 00:11:12 UTC      16h ago man-db.timer                   man-db.service
+Fri 2026-09-11 05:33:20 UTC           13h Thu 2026-09-10 15:25:05 UTC  1h 0min ago motd-news.timer                motd-news.service
+Fri 2026-09-11 06:34:06 UTC           14h Thu 2026-09-10 07:00:11 UTC       9h ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+Sun 2026-09-13 03:10:59 UTC        2 days Sun 2026-09-06 10:06:33 UTC            - e2scrub_all.timer              e2scrub_all.service
+Mon 2026-09-14 01:02:20 UTC        3 days Mon 2026-09-07 00:24:25 UTC            - fstrim.timer                   fstrim.service
+Sat 2026-09-19 21:24:24 UTC 1 week 2 days Sun 2026-09-06 10:06:33 UTC            - update-notifier-motd.timer     update-notifier-motd.service
+
+15 timers listed.
+Pass --all to see loaded but inactive timers, too.

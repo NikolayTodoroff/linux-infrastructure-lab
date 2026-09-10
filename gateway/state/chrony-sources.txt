@@ -1,0 +1,3 @@
+MS Name/IP address         Stratum Poll Reach LastRx Last sample               
+===============================================================================
+#* PHC0                          0   3   377     6    -51us[  -70us] +/- 2457ns

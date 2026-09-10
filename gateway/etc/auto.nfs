@@ -1,0 +1,1 @@
+nfs -rw,soft,intr backend:/srv/nfs

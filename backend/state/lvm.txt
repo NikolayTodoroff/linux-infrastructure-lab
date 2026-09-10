@@ -1,0 +1,9 @@
+  PV         VG      Fmt  Attr PSize  PFree   
+  /dev/sdb1  vg-data lvm2 a--  <5.00g 1012.00m
+  /dev/sdc1  vg-data lvm2 a--  <5.00g       0 
+  /dev/sdd1  vg-data lvm2 a--  <5.00g       0 
+  VG      #PV #LV #SN Attr   VSize   VFree   
+  vg-data   3   2   0 wz--n- <14.99g 1012.00m
+  LV          VG      Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  lv-logs     vg-data -wi-ao----  4.00g                                                    
+  lv-projects vg-data -wi-ao---- 10.00g                                                    

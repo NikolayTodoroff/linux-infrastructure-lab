@@ -1,0 +1,1 @@
+0 * * * * root du -sh /mnt/projects /mnt/logs /srv/nfs >> /var/log/disk-report.log

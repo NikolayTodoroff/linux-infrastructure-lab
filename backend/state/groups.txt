@@ -1,0 +1,2 @@
+devteam:x:1001:dev1,dev2
+ops:x:1002:sysadmin
